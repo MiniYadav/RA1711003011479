@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<Title> Angels and Demons </Title>
+		<Author> DAN BROWN </Author>
+		<Genre> Thriller </Genre>
+		<Copyright> 2000 </Copyright>
+		<Edition> First </Edition>
+		<Isbn> 978-0-55-216126-8 </Isbn>
+		<Publisher> Corgi Books </Publisher>
+		<Price> 700 </Price>
+ 	</book>
+ 	<book>
+		<Title> The Book Thief </Title>
+		<Author> MARKUS ZUSAK </Author>
+		<Genre> Historical </Genre>
+		<Copyright> 2005 </Copyright>
+		<Edition> First </Edition>
+		<Isbn> 978-862-30291-4 </Isbn>
+		<Publisher> Definitions </Publisher>
+		<Price> 400 </Price>
+	</book>
+	<book>
+		<Title> The Alchemist </Title>
+		<Author> PAULO COEHLO </Author>
+		<Genre> Fantasy </Genre>
+		<Copyright> 1989 </Copyright>
+		<Edition> Second </Edition>
+		<Isbn> 	0-06-250217-4 </Isbn>
+		<Publisher> HarperCollins </Publisher>
+		<Price> 200 </Price>
+ 	</book>
+ 	<book>
+		<Title>  Harry Potter and the Philosopher's Stone </Title>
+		<Author> J. K. ROWLING </Author>
+		<Genre> Fiction </Genre>
+		<Copyright> 1997 </Copyright>
+		<Edition> First </Edition>
+		<Isbn> 	0-7475-3269-9 </Isbn>
+		<Publisher> Bloomsbury </Publisher>
+		<Price> 500 </Price>
+ 	</book>
+ 	<book>
+		<Title> A Game of Thrones </Title>
+		<Author> GEORGE R. R. MARTIN </Author>
+		<Genre> Fantasy </Genre>
+		<Copyright> 1997 </Copyright>
+		<Edition> Second </Edition>
+		<Isbn> 0-553-10354-7 </Isbn>
+		<Publisher>Bantam Spectra</Publisher>
+		<Price> 800 </Price>
+ 	</book>
+</books> 
